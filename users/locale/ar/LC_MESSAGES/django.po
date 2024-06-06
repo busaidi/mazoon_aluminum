@@ -1,0 +1,100 @@
+# عنوان وصفي ما.
+# حقوق النشر (C) السنة مالك حقوق النشر للحزمة
+# يتم توزيع هذا الملف بموجب نفس ترخيص الحزمة.
+# المؤلف الأول <EMAIL@ADDRESS>، السنة.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION الحزمة\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-02 19:18+0400\n"
+"PO-Revision-Date: السنة-الشهر-اليوم الساعة:الدقيقة+المنطقة الزمنية\n"
+"Last-Translator: الاسم الكامل <EMAIL@ADDRESS>\n"
+"Language-Team: اللغة <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: .\users\templates\profile.html:5
+#, fuzzy
+#| msgid "Edit Profile"
+msgid "Profile"
+msgstr "تحرير الملف الشخصي"
+
+#: .\users\templates\profile.html:18
+msgid "Log Out"
+msgstr "تسجيل الخروج"
+
+#: .\users\templates\profile.html:26
+msgid "Profile Information"
+msgstr "معلومات الملف الشخصي"
+
+#: .\users\templates\profile.html:31
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: .\users\templates\profile.html:39 .\users\templates\profile_edit.html:27
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: .\users\templates\profile.html:47 .\users\templates\profile_edit.html:19
+msgid "First Name"
+msgstr "الاسم الأول"
+
+#: .\users\templates\profile.html:55 .\users\templates\profile_edit.html:23
+msgid "Last Name"
+msgstr "اسم العائلة"
+
+#: .\users\templates\profile.html:63 .\users\templates\profile_edit.html:5
+#: .\users\templates\profile_edit.html:13
+msgid "Edit Profile"
+msgstr "تحرير الملف الشخصي"
+
+#: .\users\templates\profile_edit.html:30
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: .\users\templates\profile_edit.html:31
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: .\users\templates\registration\login.html:15
+#: .\users\templates\registration\signup.html:53
+msgid "Login Here"
+msgstr "تسجيل الدخول هنا"
+
+#: .\users\templates\registration\login.html:38
+msgid "Login Now"
+msgstr "تسجيل الدخول الآن"
+
+#: .\users\templates\registration\login.html:45
+msgid "Login with Google"
+msgstr "تسجيل الدخول باستخدام جوجل"
+
+#: .\users\templates\registration\login.html:50
+msgid "Don't have an account?"
+msgstr "لا تملك حساب؟"
+
+#: .\users\templates\registration\login.html:52
+msgid "Create a new account"
+msgstr "إنشاء حساب جديد"
+
+#: .\users\templates\registration\signup.html:15
+msgid "Sign Up Here"
+msgstr "سجل هنا"
+
+#: .\users\templates\registration\signup.html:47
+msgid "Sign Up Now"
+msgstr "سجل الآن"
+
+#: .\users\templates\registration\signup.html:52
+msgid "Already have an account?"
+msgstr "هل لديك حساب بالفعل؟"
+
+#: .\users\views.py:30
+msgid "Profile updated successfully"
+msgstr "تم تحديث ملفك الشخصي بنجاح"

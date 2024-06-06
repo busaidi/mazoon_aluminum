@@ -1,0 +1,17 @@
+{% load i18n %}
+<footer>
+    <div class="container-fluid bg-dark py-3 text-white">
+        <div class="row">
+            <div class="col text-center">
+                <ul class="navbar-nav flex-row justify-content-center">
+                    <li class="nav-item me-3"><a class="nav-link text-white" href="/">{% trans "Home" %}</a></li>
+                    <li class="nav-item me-3"><a class="nav-link text-white" href="/about">{% trans "About" %}</a></li>
+                    <li class="nav-item me-3"><a class="nav-link text-white" href="/mazoon45">{% trans "Mazoon45" %}</a></li>
+                    <li class="nav-item me-3"><a class="nav-link text-white" href="{% url 'post_list' %}">{% trans "Blog" %}</a></li>
+                    <li class="nav-item me-3"><a class="nav-link text-white" href="/contact">{% trans "Contact" %}</a></li>
+                </ul>
+                <span>{% trans "Mazoon Aluminum. All rights reserved. Version: 0.4.8 Beta" %} © {% now "Y" %}</span>
+            </div>
+        </div>
+    </div>
+</footer>

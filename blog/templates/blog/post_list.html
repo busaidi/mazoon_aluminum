@@ -1,0 +1,34 @@
+{% extends "layouts/base_blog.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "Blog Main" %}{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1 class="text-center fw-bold mb-4">{% trans "Blog Posts" %}</h1>
+        <p class="text-center text-muted mb-4">{% trans "What we've written about most recently" %}</p>
+        <div class="row">
+            {% for post in posts %}
+                <div class="col-12 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-start align-items-center mb-2 text-muted">
+                                <small><i class="fas fa-user"></i> {% trans "Author" %}: {{ post.author }}</small>
+                                <span class="mx-2">|</span>
+                                <small><i class="fas fa-calendar-alt"></i> {% trans "Published on" %} {{ post.created_at|date:"F j, Y" }}</small>
+                                <span class="mx-2">|</span>
+                                <small><i class="fas fa-comments"></i> {% trans "Comments" %}: {{ post.comments.count }} {% if post.comments.count == 0 %}({% trans "No comments" %}){% endif %}</small>
+                            </div>
+                            <h2 class="featured-title">
+                                <a href="{% url 'post_detail' category_slug=post.category.slug slug=post.slug %}" class="text-decoration-none text-dark">{{ post.title }}</a>
+                            </h2>
+                            <p>{{ post.content|truncatewords:30 }}</p>
+                            <a href="{% url 'post_detail' category_slug=post.category.slug slug=post.slug %}" class="btn btn-dark">{% trans "Read More" %}</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

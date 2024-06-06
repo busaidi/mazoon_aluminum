@@ -1,0 +1,16 @@
+/* static/css/styles.css */
+/* this class for navbar*/
+ .dotted {
+            background-color: #f8f9fa;
+            background-image: radial-gradient(circle, #e7e7e7 0.5px, transparent 1px);
+            background-size: 8px 8px;
+        }
+
+
+/*this class for products mazoon45*/
+.bg-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the background color and transparency */
+    padding: 20px;
+    border-radius: 10px;
+}
+

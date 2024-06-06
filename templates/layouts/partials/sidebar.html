@@ -1,0 +1,33 @@
+{% load static %}
+{% load i18n %}
+<!-- About Blog Card -->
+<div class="card mb-4 border-0 shadow-sm">
+    <div class="card-body">
+        <h5 class="card-title"><i class="fas fa-info-circle"></i> {% trans "About This Blog" %}</h5>
+        <p class="card-text">{% trans "Welcome to the Mazoon Aluminium Blog! Here, you will find everything related to aluminum windows and doors. Our blog covers a wide range of topics, including the latest trends in glass and aluminum, interior design tips, and detailed articles on the fabrication process. Follow us for regular updates and discover how windows and doors can add elegance and functionality to your spaces!" %}</p>
+    </div>
+</div>
+
+<!-- Latest Blogs Card -->
+<div class="card mb-4 border-0 shadow-sm">
+    <div class="card-body">
+        <h5 class="card-title"><i class="fas fa-newspaper"></i> {% trans "Latest Blogs" %}</h5>
+        <ul class="list-unstyled">
+            {% for post in latest_posts %}
+                <li class="mb-2"><i class="fas fa-angle-right"></i> <a href="{% url 'post_detail' category_slug=post.category.slug slug=post.slug %}" class="text-decoration-none text-dark">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<!-- Latest Comments Card -->
+<div class="card mb-4 border-0 shadow-sm">
+    <div class="card-body">
+        <h5 class="card-title"><i class="fas fa-comments"></i> {% trans "Latest Comments" %}</h5>
+        <ul class="list-unstyled">
+            {% for comment in latest_comments %}
+                <li class="mb-2"><i class="fas fa-comment"></i> <strong>{{ comment.author }}:</strong> <span>{{ comment.content|truncatewords:10 }}</span></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

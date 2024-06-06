@@ -1,0 +1,42 @@
+{% extends "layouts/base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "Contact Us" %}{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <h2 class="text-center fw-bold mb-4">{% trans "Contact Us" %}</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <!-- Contact Form -->
+        <div class="col">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <h4 class="card-title border-bottom pb-2 mb-4">{% trans "Contact Us" %}</h4>
+                    <form method="POST" action="{% url 'contact' %}">
+                        {% csrf_token %}
+                        {{ form.as_p }}
+                        <button type="submit" class="btn btn-dark w-100">{% trans "Submit" %}</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="col">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <h4 class="card-title border-bottom pb-2 mb-4">{% trans "Our Location" %}</h4>
+                    <p><strong>{% trans "Office" %}:</strong> {% trans "Abraj Al Muhlab, Al Ansab, Muscat, Sultanate Of Oman" %}</p>
+                    <p><strong>{% trans "Fabrication" %}:</strong> {% trans "Industrial Area, Al Suwaiq, Sultanate Of Oman" %}</p>
+                    <h4 class="card-title border-bottom pb-2 mb-4 mt-4">{% trans "Email" %}</h4>
+                    <p>busaidi.nexus@gmail.com</p>
+                    <h4 class="card-title border-bottom pb-2 mb-4 mt-4">{% trans "Phone Numbers" %}</h4>
+                    <p><strong>{% trans "Administrator" %}:</strong> 91711170</p>
+                    <p><strong>{% trans "Sales" %}:</strong> 95777605</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

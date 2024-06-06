@@ -1,0 +1,116 @@
+# عنوان وصفي ما.
+# حقوق النشر (C) السنة مالك حقوق النشر للحزمة
+# يتم توزيع هذا الملف بموجب نفس ترخيص الحزمة.
+# المؤلف الأول <EMAIL@ADDRESS>، السنة.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION الحزمة\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-05 21:22+0400\n"
+"PO-Revision-Date: السنة-الشهر-اليوم الساعة:الدقيقة+المنطقة الزمنية\n"
+"Last-Translator: الاسم الكامل <EMAIL@ADDRESS>\n"
+"Language-Team: اللغة <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: .\blog\templates\blog\category.html:10
+msgid "Posts in this category"
+msgstr "المشاركات في هذا القسم"
+
+#: .\blog\templates\blog\category.html:17
+#: .\blog\templates\blog\post_detail.html:10
+#: .\blog\templates\blog\post_list.html:17
+msgid "Author"
+msgstr "المؤلف"
+
+#: .\blog\templates\blog\category.html:19
+#: .\blog\templates\blog\post_list.html:19
+msgid "Published on"
+msgstr "تم النشر في"
+
+#: .\blog\templates\blog\category.html:21
+#: .\blog\templates\blog\post_detail.html:34
+#: .\blog\templates\blog\post_list.html:21
+msgid "Comments"
+msgstr "التعليقات"
+
+#: .\blog\templates\blog\category.html:21
+#: .\blog\templates\blog\post_list.html:21
+msgid "No comments"
+msgstr "التعليقات"
+
+#: .\blog\templates\blog\category.html:27
+#: .\blog\templates\blog\post_list.html:27
+msgid "Read More"
+msgstr "إقراء المزيد"
+
+#: .\blog\templates\blog\comments_display.html:13
+msgid "Reply"
+msgstr "رد"
+
+#: .\blog\templates\blog\comments_display.html:18
+#: .\blog\templates\blog\post_detail.html:38
+msgid "Write a reply"
+msgstr "اكتب ردًا"
+
+#: .\blog\templates\blog\comments_display.html:21
+#: .\blog\templates\blog\post_detail.html:42
+msgid "Post reply"
+msgstr "نشر الرد"
+
+#: .\blog\templates\blog\post_detail.html:11
+msgid "Created on"
+msgstr "تم الإنشاء في"
+
+#: .\blog\templates\blog\post_detail.html:12
+msgid "Last updated"
+msgstr "آخر تحديث"
+
+#: .\blog\templates\blog\post_detail.html:19
+msgid "Category"
+msgstr "التصنيف"
+
+#: .\blog\templates\blog\post_detail.html:25
+msgid "Tags"
+msgstr "الوسوم"
+
+#: .\blog\templates\blog\post_form.html:8
+msgid "Create Post"
+msgstr "إنشاء منشور"
+
+#: .\blog\templates\blog\post_form.html:12
+msgid "Save"
+msgstr "حفظ"
+
+#: .\blog\templates\blog\post_list.html:5
+msgid "Blog Main"
+msgstr "المدونة"
+
+#: .\blog\templates\blog\post_list.html:9
+msgid "Blog Posts"
+msgstr "منشورات المدونة"
+
+#: .\blog\templates\blog\post_list.html:10
+msgid "What we've written about most recently"
+msgstr "ما كتبناه مؤخرًا"
+
+#: .\blog\views.py:56
+msgid "Your comment has been added successfully."
+msgstr "تمت إضافة تعليقك بنجاح."
+
+#: .\blog\views.py:58
+msgid "There was an error adding your comment. Please try again."
+msgstr "حدث خطأ أثناء إضافة تعليقك. يرجى المحاولة مرة أخرى."
+
+#: .\blog\views.py:73
+msgid "Your post has been created successfully."
+msgstr "تم إنشاء منشورك بنجاح."
+
+#: .\blog\views.py:76
+msgid "There was an error creating your post. Please try again."
+msgstr "حدث خطأ أثناء إنشاء منشورك. يرجى المحاولة مرة أخرى."

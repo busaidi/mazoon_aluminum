@@ -1,0 +1,17 @@
+# .gitignore
+__pycache__/
+db.sqlite3
+*.pyc
+*.pyo
+*.pyd
+*.db
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Ignore the root static directory
+/static/
+
+# Do not ignore static directories within apps
+!/website/static/

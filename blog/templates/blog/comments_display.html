@@ -1,0 +1,42 @@
+{% load static %}
+{% load i18n %}
+{% for comment in comments %}
+    <div class="comment mb-4 pb-2 border-bottom" style="{% if comment.parent %} margin-left: 40px; {% endif %}">
+        <div class="comment-content">
+            <header class="mb-2 d-flex justify-content-between align-items-center">
+                <strong><i class="fas fa-user"></i> {{ comment.author }}</strong>
+                <small><i class="fas fa-clock"></i> {{ comment.created_at|date:"M d, Y" }}</small>
+            </header>
+            <p>{{ comment.content }}</p>
+        </div>
+        <footer class="d-flex align-items-center">
+            <button class="btn btn-outline-dark btn-sm me-2" data-bs-toggle="collapse" data-bs-target="#replyForm-{{ comment.id }}"><i class="fas fa-reply"></i> {% trans "Reply" %}</button>
+            <div class="collapse w-100" id="replyForm-{{ comment.id }}">
+                <form method="post" action="{% url 'add_comment' post_id=post_id %}" class="mt-2">
+                    {% csrf_token %}
+                    <div class="input-group">
+                        <input type="text" name="content" class="form-control" placeholder="{% trans "Write a reply" %}" aria-label="Reply" aria-describedby="button-addon2">
+                        <input type="hidden" name="post_id" value="{{ post_id }}">
+                        <input type="hidden" name="parent_id" value="{{ comment.id }}">
+                        <button class="btn btn-dark" type="submit" id="button-addon2">{% trans "Post reply" %}</button>
+                    </div>
+                </form>
+            </div>
+        </footer>
+        {% if comment.replies.all %}
+            <div class="replies ms-4 mt-3">
+                {% for reply in comment.replies.all %}
+                    <div class="reply mb-3 pb-3 border-top">
+                        <div class="reply-content">
+                            <header class="mb-2 d-flex justify-content-between align-items-center">
+                                <strong><i class="fas fa-user"></i> {{ reply.author }}</strong>
+                                <small><i class="fas fa-clock"></i> {{ reply.created_at|date:"M d, Y" }}</small>
+                            </header>
+                            <p>{{ reply.content }}</p>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+{% endfor %}

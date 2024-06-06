@@ -1,0 +1,51 @@
+{% load static %}
+{% load i18n %}
+<!doctype html>
+<html lang="{% get_current_language as LANGUAGE_CODE %}{{ LANGUAGE_CODE }}"
+      dir="{% if LANGUAGE_CODE == 'ar' %}rtl{% else %}ltr{% endif %}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{% endblock %} | {% trans "Mazoon Aluminum Blog" %}</title>
+    {% if LANGUAGE_CODE == 'ar' %}
+        <link href="{% static 'css/bootstrap.rtl.min.css' %}" rel="stylesheet">
+    {% else %}
+        <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    {% endif %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'website/css/styles.css' %}">
+    {% block extra_head %}{% endblock %}
+</head>
+<body class="bg-light dotted">
+<header>
+    {% include 'layouts/partials/topbar.html' %}
+    {% include 'layouts/partials/navbar.html' %}
+</header>
+<div class="container">
+    <div class="row py-5">
+        <!-- Main Content -->
+        <div class="col-lg-8">
+            {% if messages %}
+                <div class="mb-4">
+                    {% for message in messages %}
+                        <div class="alert {% if message.tags %}alert-{{ message.tags }}{% else %}alert-info{% endif %}" role="alert">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+            {% block content %}{% endblock %}
+        </div>
+        <!-- Sidebar -->
+        <div class="col-lg-4">
+            <div class="sticky-top" style="top: 2rem;">
+                {% include "layouts/partials/sidebar.html" %}
+            </div>
+        </div>
+    </div>
+</div>
+{% include 'layouts/partials/footer.html' %}
+<script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+{% block extra_js %}{% endblock %}
+</body>
+</html>

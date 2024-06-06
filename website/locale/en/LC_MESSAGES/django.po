@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-20 20:07+0400\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: .\public_site\templates\about.html:6
+msgid "About Us"
+msgstr "About UsAbout Us"
+
+#: .\public_site\templates\about.html:7
+msgid "About Us Body"
+msgstr "About Us BodyAbout Us Body"
+
+#: .\public_site\templates\layouts\partials\navbar.html:13
+msgid "/about"
+msgstr "About"
+
+#: .\public_site\templates\layouts\partials\navbar.html:15
+msgid "/products"
+msgstr "Products"
+
+#: .\public_site\templates\layouts\partials\navbar.html:17
+msgid "/mazoon45"
+msgstr "Mazoon45"
+
+#: .\public_site\templates\layouts\partials\navbar.html:20
+msgid "/news"
+msgstr "News"
+
+#: .\public_site\templates\layouts\partials\navbar.html:21
+msgid "/blog"
+msgstr "Blog"
+
+#: .\public_site\templates\layouts\partials\navbar.html:22
+msgid "/downloads"
+msgstr "Downloads"
+
+#: .\public_site\templates\layouts\partials\navbar.html:23
+msgid "/contact"
+msgstr "Contact"
+
+#: .\public_site\templates\layouts\partials\navbar.html:33
+msgid "Logout"
+msgstr "Logout"
+
+#: .\public_site\templates\layouts\partials\navbar.html:40
+msgid "Sign In"
+msgstr "Sign In"
+
+#: .\public_site\templates\layouts\partials\navbar.html:42
+msgid "Sign Up"
+msgstr "Sign Up"
+
+#~ msgid "Welcome to Mazoon Aluminium"
+#~ msgstr "Welcome to Mazoon AluminiumWelcome to Mazoon Aluminium"
+
+#~ msgid ""
+#~ "This is the home page of Mazoon Aluminium, your trusted partner in "
+#~ "quality aluminum windows and doors."
+#~ msgstr ""
+#~ "This is the home page of Mazoon Aluminium, your trusted partner in "
+#~ "quality aluminum windows and doors.This is the home page of Mazoon "
+#~ "Aluminium, your trusted partner in quality aluminum windows and doors."

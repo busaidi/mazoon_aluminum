@@ -1,0 +1,58 @@
+{% load i18n l10n %}
+<div class="container-fluid bg-dark text-danger">
+    <div class="container d-flex justify-content-between py-1">
+        <div>
+            <!-- Phone -->
+            <a href="tel:0096891711170" target="_blank" class="text-white me-3 text-decoration-none" style="font-size: 0.9rem;">
+                <i class="fas fa-phone-alt"></i>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:busaidi.nexus@gmail.com" target="_blank" class="text-white me-3 text-decoration-none" style="font-size: 0.9rem;">
+                <i class="fas fa-envelope"></i>
+            </a>
+
+            <!-- WhatsApp -->
+            <a href="https://wa.me/+96891711170" target="_blank" class="text-white me-3 text-decoration-none" style="font-size: 0.9rem;">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/mazoon_aluminum/" target="_blank" class="text-white me-3 text-decoration-none" style="font-size: 0.9rem;">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://om.linkedin.com/company/mazoon-aluminum" target="_blank" class="text-white text-decoration-none" style="font-size: 0.9rem;">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+
+        <div>
+            <!-- Language Switcher -->
+            <div class="dropdown">
+                <a class="nav-link dropdown-toggle text-white text-decoration-none" href="#" id="languageDropdown" role="button"
+                   data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 0.9rem;">
+                    <i class="fas fa-globe"></i>
+                    {% get_language_info for LANGUAGE_CODE as language_info %}
+                    {{ language_info.name_local }}
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                    {% get_available_languages as LANGUAGES %}
+                    {% get_language_info_list for LANGUAGES as languages %}
+                    {% for language in languages %}
+                        <li>
+                            <a class="dropdown-item" href="#" onclick="event.preventDefault(); document.getElementById('languageForm_{{ language.code }}').submit();">
+                                {{ language.name_local }}
+                            </a>
+                            <form id="languageForm_{{ language.code }}" action="{% url 'set_language' %}" method="post" style="display: none;">
+                                {% csrf_token %}
+                                <input type="hidden" name="language" value="{{ language.code }}">
+                            </form>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

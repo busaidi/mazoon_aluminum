@@ -1,0 +1,81 @@
+{% extends "layouts/base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "Mazoon 45" %}{% endblock %}
+
+{% block content %}
+
+<!-- Hero Section with Product Description -->
+<div class="container-fluid p-0">
+    <div class="position-relative text-center text-white" style="height: 60vh;">
+        <img src="{% static 'website/media/images/products/mazoon45/bg.jpg' %}" alt="{% trans 'Hero Image' %}" class="w-100 h-100 img-fluid object-fit-cover rounded-bottom-2">
+        <div class="position-absolute top-50 start-50 translate-middle w-100">
+            <div class="bg-dark bg-opacity-75 p-4 rounded">
+                <h1 class="display-4 fw-bold">{% trans "Mazoon 45 Casement System" %}</h1>
+                <p class="lead">{% trans "Where Design Meets Durability." %}</p>
+                <p>{% trans "The Mazoon 45 window and door system embodies a harmonious combination of ease of manufacture and quality production. As a hinged system, it is beautifully designed and luxurious to deliver contemporary aesthetics combined with powerful performance. Every detail is designed with the latest, highest quality technology, making the windows and doors enjoy unparalleled durability, easy maintenance, and a distinctive elegant appearance." %}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Product Image Section -->
+<div class="container py-5">
+    <div class="row justify-content-center py-5">
+        <div class="col-md-3 text-center">
+            <img src="{% static 'website/media/images/products/mazoon45/mazoon_product_1.png' %}" class="img-fluid rounded shadow-sm" alt="{% trans "Product Image" %}">
+        </div>
+    </div>
+</div>
+
+<!-- Features Section -->
+<div class="container py-5">
+    <h2 class="text-center fw-bold mb-4">{% trans "Mazoon45 Systems Features" %}</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col">
+            <div class="card text-center h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <img src="{% static 'website/media/images/products/mazoon45/featured_epdm_rubber.png' %}" class="img-fluid mb-2" alt="{% trans "Feature 1" %}">
+                    <h5 class="card-title mt-2">{% trans "Triple Sealing EPDM" %}</h5>
+                    <p class="card-text">{% trans "Equipped with three EPDM insulators, the Mozoon 45 system provides strong insulation. This ensures protection against dust and rain seepage, and provides superior sound insulation, making it a beacon of calm in a noisy urban landscape." %}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card text-center h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <video controls autoplay loop class="img-fluid mb-2">
+                        <source src="{% static 'website/media/images/products/mazoon45/video_mazoon_joint.mp4' %}" type="video/mp4">
+                        {% trans "Your browser does not support the video tag." %}
+                    </video>
+                    <h5 class="card-title mt-2">{% trans "Corner Joint" %}</h5>
+                    <p class="card-text">{% trans "Precision is the key to excellent manufacturing. We use crimped corner joints for added strength, and each corner is fortified with aligned corner joints, ensuring perfect alignment and enhanced stability in every detail of your window or door." %}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card text-center h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <img src="{% static 'website/media/images/products/mazoon45/featured_mullion_connector.png' %}" class="img-fluid mb-2" alt="{% trans "Feature 3" %}">
+                    <h5 class="card-title mt-2">{% trans "Mullion Connector" %}</h5>
+                    <p class="card-text">{% trans "Our approach to strength and durability in manufacturing ensures that every detail, even if it is small, is assembled using two hidden screws. This not only enhances the structure but also maintains the elegant appearance of the system." %}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card text-center h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <img src="{% static 'website/media/images/products/mazoon45/featured_adaptive_profile_joint.png' %}" class="img-fluid mb-2" alt="{% trans "Feature 4" %}">
+                    <h5 class="card-title mt-2">{% trans "Adaptable Profiles" %}</h5>
+                    <p class="card-text">{% trans "The Mazoon 45 system is versatile and meets a variety of architectural needs such as circular windows and more. Whether you are aiming for a wide panoramic view or a segmented window design, our system adapts easily." %}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

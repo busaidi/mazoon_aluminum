@@ -1,0 +1,114 @@
+# بعض العنوان الوصفي.
+# حقوق الطبع والنشر (C) YEAR HOLDER حقوق الطبع والنشر للحزمة
+# يتم توزيع هذا الملف بموجب نفس الترخيص مثل PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-05 21:22+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: .\templates\layouts\base.html:9 .\templates\layouts\base_blank.html:9
+msgid "Mazoon Aluminum"
+msgstr "مزون المنيوم"
+
+#: .\templates\layouts\base_blog.html:9
+msgid "Mazoon Aluminum Blog"
+msgstr "مدونة مزون المنيوم"
+
+#: .\templates\layouts\partials\footer.html:7
+#: .\templates\layouts\partials\navbar.html:14
+msgid "Home"
+msgstr "الرئيسية"
+
+#: .\templates\layouts\partials\footer.html:8
+#: .\templates\layouts\partials\navbar.html:15
+msgid "About"
+msgstr "حول"
+
+#: .\templates\layouts\partials\footer.html:9
+#: .\templates\layouts\partials\navbar.html:20
+msgid "Mazoon45"
+msgstr "مزون ٤٥"
+
+#: .\templates\layouts\partials\footer.html:10
+#: .\templates\layouts\partials\navbar.html:23
+msgid "Blog"
+msgstr "المدونة"
+
+#: .\templates\layouts\partials\footer.html:11
+#: .\templates\layouts\partials\navbar.html:25
+msgid "Contact"
+msgstr "اتصل بنا"
+
+#: .\templates\layouts\partials\footer.html:13
+msgid "Mazoon Aluminum. All rights reserved. Version: 0.4.8 Beta"
+msgstr "مزون للألمنيوم. جميع الحقوق محفوظة. الإصدار: 0.4.8 بيتا"
+
+#: .\templates\layouts\partials\navbar.html:18
+#, fuzzy
+#| msgid "/products"
+msgid "Products"
+msgstr "المنتجات"
+
+#: .\templates\layouts\partials\navbar.html:24
+msgid "Mazoon Lab"
+msgstr "مختبر مزون"
+
+#: .\templates\layouts\partials\navbar.html:34
+msgid "Profile"
+msgstr "الملف الشخصي"
+
+#: .\templates\layouts\partials\navbar.html:35
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+#: .\templates\layouts\partials\navbar.html:38
+msgid "Logout"
+msgstr "تسجيل الخروج"
+
+#: .\templates\layouts\partials\navbar.html:45
+msgid "Sign In"
+msgstr "تسجيل الدخول"
+
+#: .\templates\layouts\partials\navbar.html:46
+msgid "Sign Up"
+msgstr "إنشاء حساب"
+
+#: .\templates\layouts\partials\sidebar.html:6
+msgid "About This Blog"
+msgstr "حول هذه المدونة"
+
+#: .\templates\layouts\partials\sidebar.html:7
+msgid ""
+"Welcome to the Mazoon Aluminium Blog! Here, you will find everything related "
+"to aluminum windows and doors. Our blog covers a wide range of topics, "
+"including the latest trends in glass and aluminum, interior design tips, and "
+"detailed articles on the fabrication process. Follow us for regular updates "
+"and discover how windows and doors can add elegance and functionality to "
+"your spaces!"
+msgstr ""
+"مرحباً بكم في مدونة مزون المنيوم! تجدون هنا كل ما يتعلق بالنوافذ والأبواب "
+"المصنوعة من الألمنيوم. تغطي مدونتنا مجموعة واسعة من المواضيع، بما في ذلك "
+"أحدث الاتجاهات في الزجاج والألمنيوم، نصائح التصميم الداخلي، ومقالات مفصلة عن "
+"عملية التصنيع. تابعونا للحصول على تحديثات منتظمة واكتشفوا كيف يمكن للنوافذ "
+"والأبواب أن تضيف الأناقة والوظيفة إلى مساحاتكم!"
+
+#: .\templates\layouts\partials\sidebar.html:14
+msgid "Latest Blogs"
+msgstr "أحدث المدونات"
+
+#: .\templates\layouts\partials\sidebar.html:26
+msgid "Latest Comments"
+msgstr "أحدث التعليقات"

@@ -1,0 +1,547 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-05 21:22+0400\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: .\website\forms.py:11
+msgid "Name"
+msgstr "الاسم"
+
+#: .\website\forms.py:12
+msgid "Mobile Number"
+msgstr "الهاتف"
+
+#: .\website\forms.py:13
+msgid "Message"
+msgstr "اترك رسالتك"
+
+#: .\website\templates\website\about.html:5
+msgid "About"
+msgstr "من نحن"
+
+#: .\website\templates\website\about.html:13
+msgid "Our Story"
+msgstr "قصتنا"
+
+#: .\website\templates\website\about.html:14
+msgid ""
+"Mazoon Aluminum is a leading and unique Omani brand in the field of "
+"developing and manufacturing windows and doors systems made of both aluminum "
+"and aluminium thermal break. Our systems are characterized by high quality, "
+"thanks to the experience we have gained from working in this field over the "
+"stages we have gone through. Starting from the establishment phase in 2016 "
+"until the systems are independently developed starting in 2021."
+msgstr ""
+"مزون المنيوم هي علامة تجارية عمانية رائدة ومتفردة في مجال تطوير وتصنيع أنظمة "
+"النوافذ والأبواب المصنعة من كل من الألمنيوم والألمنيوم العازل للحرارة، حيث "
+"تمتاز أنظمتنا بالجودة العالية، ويرجع الفضل في ذلك إلي الخبرة الي إكتسبناها "
+"من واقع العمل في هذا المجال على مدى المراحل التي مررنا بها بدءً من مرحلة "
+"التأسيس في عام 2016 وصولاً إلى مرحلة تطوير الأنظمة بشكل مستقل بدءً من عام "
+"2021. "
+
+#: .\website\templates\website\about.html:23
+msgid "About Mazoon Aluminum"
+msgstr "حول مزون المنيوم"
+
+#: .\website\templates\website\about.html:24
+msgid "Leading the way in innovation and quality since 2016."
+msgstr "رائدة الطريق في الابتكار والجودة منذ عام 2016."
+
+#: .\website\templates\website\about.html:31
+#| msgid "Our Journey in Brief:"
+msgid "Our Journey in Brief"
+msgstr "المراحل بشكل موجز:"
+
+#: .\website\templates\website\about.html:36
+msgid "2016"
+msgstr ""
+
+#: .\website\templates\website\about.html:37
+msgid ""
+"Investment Corporation was established to be the leading organization that "
+"provides you with high-quality uPVC windows and doors under the trade name "
+"Apex Windows."
+msgstr ""
+"تأسست مؤسسة استثمار لتكون المؤسسة الرائدة التي توفر لك نوافذ وأبواب الـuPVC "
+"عالية الجودة تحت الاسم التجاري Apex Windows."
+
+#: .\website\templates\website\about.html:44
+msgid "2018"
+msgstr ""
+
+#: .\website\templates\website\about.html:45
+msgid ""
+"Thanks to our pursuit of high quality products to achieve our goal; We added "
+"thermally insulated aluminum window, door and curtain systems."
+msgstr ""
+"بفضل سعينا للحصول على منتجات عالية الجودة لتحقيق هدفنا؛ أضفنا أنظمة النوافذ "
+"والأبواب والستائر الجدارية المصنعة من الألمنيوم والألمنيوم العازل للحرارة."
+
+#: .\website\templates\website\about.html:52
+msgid "2021"
+msgstr ""
+
+#: .\website\templates\website\about.html:53
+msgid ""
+"We launched the first aluminum system for windows and doors of our own "
+"design, as we employed our previous experiences to obtain the Mazoon 45 "
+"system. Simultaneously, we launched the Mazoon Aluminum brand."
+msgstr ""
+"قمنا بتدشين أول نظام المنيوم للنوافذ والأبواب من تصميمنا الخاص، حيث وظفنا "
+"خبراتنا السابقة للحصول على نظام مزون45. تزامنًا قمنا بتدشين العلامة التجارية "
+"مزون المنيوم."
+
+#: .\website\templates\website\about.html:60
+msgid "2023"
+msgstr ""
+
+#: .\website\templates\website\about.html:61
+msgid ""
+"With continued success with the Mazoon 45 system, we launched the Mazoon 60 "
+"thermal break system. In addition to developing a curtain wall system."
+msgstr ""
+"مع توالي النجاح مع نظام مزون٤٥، قمنا بتدشين نظام مزون60 العازل للحرارة. "
+"بالإضافة تطوير نظام الستائر الجدارية."
+
+#: .\website\templates\website\about.html:74
+msgid "Mazoon Aluminum: A Benchmark of Quality"
+msgstr "مزون المنيوم: معيار للجودة"
+
+#: .\website\templates\website\about.html:75
+msgid ""
+"Our distinctive feature is the combination of innovative design and high-"
+"quality materials that are used in common with all of our current systems, "
+"namely Mozoon 45, Mozoon 60, and Mozoon curtain walls, which leads to the "
+"integration of our systems with each other, and meets the unique "
+"requirements of our customers, with our unwavering commitment to excellence "
+"and customer satisfaction. Throughout our development, we have been driven "
+"by constant innovation, adaptability and a passion for serving our "
+"customers. Our goal? Not just leading the aluminum industry, but shaping its "
+"future, setting new standards."
+msgstr ""
+"السمة المميزة لدينا هي مزيج من التصميم المبتكر والمواد عالية الجودة التي "
+"تستخدم مشتركة لكل انظمتنا الحالية وهي مزون٤٥ ،ومزون٦٠ ، ومزون الستائر "
+"الجدارية مما يؤدي إلى تكامل انظمتنا مع بعضها البعض، ويلبي المتطلبات الفريدة "
+"لعملائنا، مع التزامنا الثابت بالتميز ورضا العملاء. طوال تطورنا، كنا مدفوعين "
+"بالابتكار المستمر والقدرة على التكيف والشغف لخدمة عملائنا. هدفنا؟ ليس فقط "
+"قيادة صناعة الألمنيوم، بل تشكيل مستقبلها، ووضع معايير جديدة."
+
+#: .\website\templates\website\contact.html:5
+#: .\website\templates\website\contact.html:9
+#: .\website\templates\website\contact.html:15
+msgid "Contact Us"
+msgstr "الاتصال بنا"
+
+#: .\website\templates\website\contact.html:19
+msgid "Submit"
+msgstr "ارسل"
+
+#: .\website\templates\website\contact.html:29
+msgid "Our Location"
+msgstr "مواقعنا"
+
+#: .\website\templates\website\contact.html:30
+msgid "Office"
+msgstr "المكتب"
+
+#: .\website\templates\website\contact.html:30
+msgid "Abraj Al Muhlab, Al Ansab, Muscat, Sultanate Of Oman"
+msgstr "ابراج المهلب، الانصب، مسقط، سلطنة عمان"
+
+#: .\website\templates\website\contact.html:31
+msgid "Fabrication"
+msgstr "الورشة"
+
+#: .\website\templates\website\contact.html:31
+msgid "Industrial Area, Al Suwaiq, Sultanate Of Oman"
+msgstr "المنطقة الصناعية، السويق، سلطنة عمان"
+
+#: .\website\templates\website\contact.html:32
+msgid "Email"
+msgstr "البريد الالكتروني"
+
+#: .\website\templates\website\contact.html:34
+msgid "Phone Numbers"
+msgstr "الهاتف"
+
+#: .\website\templates\website\contact.html:35
+msgid "Administrator"
+msgstr "الإدارة"
+
+#: .\website\templates\website\contact.html:36
+msgid "Sales"
+msgstr "المبيعات"
+
+#: .\website\templates\website\home.html:5
+msgid "Home Page"
+msgstr "الرئيسية"
+
+#: .\website\templates\website\home.html:9
+#: .\website\templates\website\products\mazoon45.html:12
+#, fuzzy
+#| msgid "Product Image"
+msgid "Hero Image"
+msgstr "صورة المنتج"
+
+#: .\website\templates\website\home.html:12
+#: .\website\templates\website\home.html:21
+msgid "Welcome To Mazoon Aluminum!"
+msgstr "مزون المنيوم ترحب بك!"
+
+#: .\website\templates\website\home.html:13
+#: .\website\templates\website\home.html:22
+msgid ""
+"The first private company in Oman to make and develop aluminum and window "
+"systems."
+msgstr ""
+"مزون المنيوم أول شركة عمانية خاصة تعنى بتطوير أنظمة الألمنيوم للنوافذ "
+"والأبواب."
+
+#: .\website\templates\website\home.html:15
+#: .\website\templates\website\home.html:24
+msgid "Learn More About Us!"
+msgstr "تعرف علينا اكثر!"
+
+#: .\website\templates\website\home.html:34
+msgid "Our Commitment to Quality"
+msgstr "التزامنا بالجودة"
+
+#: .\website\templates\website\home.html:35
+msgid ""
+"At Mazoon Aluminum, we extrude our aluminum profiles from Napco Oman, "
+"certified with ISO standards. Our products are built to last and designed to "
+"impress."
+msgstr ""
+"في شركة مزون للألمنيوم، نقوم بسحب مقاطع الألمنيوم من شركة نابكو عمان، "
+"المعتمدة بمعايير ISO. منتجاتنا مصممة لتدوم طويلاً ومصممة لإثارة إعجابك."
+
+#: .\website\templates\website\home.html:36
+msgid "Learn more about Napco Oman"
+msgstr "إقرأ عن نابكو أكثر!"
+
+#: .\website\templates\website\home.html:42
+msgid "Aluminum Windows And Doors Systems Feature"
+msgstr "ما تتميز به انظمتنا الخاصة للنوافذ والأبواب"
+
+#: .\website\templates\website\home.html:59
+msgid "Products"
+msgstr "المنتجات"
+
+#: .\website\templates\website\home.html:62
+#: .\website\templates\website\products\mazoon45.html:27
+msgid "Product Image"
+msgstr "صورة المنتج"
+
+#: .\website\templates\website\home.html:65
+#: .\website\templates\website\products\mazoon45.html:15
+msgid "Mazoon 45 Casement System"
+msgstr "مزون٤٥ نظام مفصلي"
+
+#: .\website\templates\website\home.html:66
+#: .\website\templates\website\products\mazoon45.html:16
+msgid "Where Design Meets Durability."
+msgstr "حيث يلتقي التصميم بالمتانة."
+
+#: .\website\templates\website\home.html:67
+msgid ""
+"The Mazoon 45 window and door system embodies a harmonious combination of "
+"ease of manufacture and quality produced. As a hinged system, it is "
+"beautifully designed and luxurious to deliver contemporary aesthetics "
+"combined with powerful performance. Every detail is designed with the "
+"latest, highest quality technology, making the windows and doors enjoy "
+"unparalleled durability, easy maintenance, and a distinctive elegant "
+"appearance."
+msgstr ""
+"يجسد نظام النوافذ والأبواب مزون٤٥ مزيجًا متناغمًا من سهولة التصنيع وجودة "
+"الإنتاج. كنظام مفصلي، فهو مصمم بشكل جميل وفاخر لتقديم جماليات معاصرة مدمجة "
+"مع أداء قوي. كل تفصيل مصمم بأحدث وأعلى جودة تكنولوجية، مما يجعل النوافذ "
+"والأبواب تتمتع بمتانة لا مثيل لها وسهولة صيانة ومظهر أنيق مميز."
+
+#: .\website\templates\website\home.html:68
+msgid "Learn more"
+msgstr "إقرأ المزيد!"
+
+#: .\website\templates\website\mazoon_lab.html:5
+msgid "Mazoon Lab"
+msgstr "مختبر مزون"
+
+#: .\website\templates\website\products\mazoon45.html:5
+msgid "Mazoon 45"
+msgstr "مزون٤٥"
+
+#: .\website\templates\website\products\mazoon45.html:17
+msgid ""
+"The Mazoon 45 window and door system embodies a harmonious combination of "
+"ease of manufacture and quality production. As a hinged system, it is "
+"beautifully designed and luxurious to deliver contemporary aesthetics "
+"combined with powerful performance. Every detail is designed with the "
+"latest, highest quality technology, making the windows and doors enjoy "
+"unparalleled durability, easy maintenance, and a distinctive elegant "
+"appearance."
+msgstr ""
+"يجسد نظام النوافذ والأبواب مزون٤٥ مزيجًا متناغمًا من سهولة التصنيع وجودة "
+"الإنتاج. كنظام مفصلي، فهو مصمم بشكل جميل وفاخر لتقديم جماليات معاصرة مدمجة "
+"مع أداء قوي. كل تفصيل مصمم بأحدث وأعلى جودة تكنولوجية، مما يجعل النوافذ "
+"والأبواب تتمتع بمتانة لا مثيل لها وسهولة صيانة ومظهر أنيق مميز."
+
+#: .\website\templates\website\products\mazoon45.html:34
+msgid "Mazoon45 Systems Features"
+msgstr "خصائص نظام مزون٤٥"
+
+#: .\website\templates\website\products\mazoon45.html:39
+msgid "Feature 1"
+msgstr ""
+
+#: .\website\templates\website\products\mazoon45.html:40
+msgid "Triple Sealing EPDM"
+msgstr "عزل ثلاثي من نوع EPDM"
+
+#: .\website\templates\website\products\mazoon45.html:41
+msgid ""
+"Equipped with three EPDM insulators, the Mozoon 45 system provides strong "
+"insulation. This ensures protection against dust and rain seepage, and "
+"provides superior sound insulation, making it a beacon of calm in a noisy "
+"urban landscape."
+msgstr ""
+"مجهز بثلاثة عوازل EPDM، يوفر نظام مزون٤٥ عزلًا قويًا. يضمن ذلك الحماية من "
+"الغبار وتسرب المياه، ويوفر عزلًا صوتيًا فائقًا، مما يجعله منارة للهدوء في بيئة "
+"حضرية صاخبة."
+
+#: .\website\templates\website\products\mazoon45.html:51
+msgid "Your browser does not support the video tag."
+msgstr "متصفحك لا يدعم وسم الفيديو."
+
+#: .\website\templates\website\products\mazoon45.html:53
+msgid "Corner Joint"
+msgstr "تجميع الزوايا"
+
+#: .\website\templates\website\products\mazoon45.html:54
+msgid ""
+"Precision is the key to excellent manufacturing. We use crimped corner "
+"joints for added strength, and each corner is fortified with aligned corner "
+"joints, ensuring perfect alignment and enhanced stability in every detail of "
+"your window or door."
+msgstr ""
+"الدقة هي المفتاح للحصول على تصنيع ممتاز. نحن نستخدم مفاصل زاوية مجعدة لمزيد "
+"من القوة، ويتم تحصين كل زاوية بمفاصل زاوية محاذاة، مما يضمن محاذاة مثالية "
+"وثبات معزز في كل تفاصيل نافذتك أو بابك."
+
+#: .\website\templates\website\products\mazoon45.html:62
+msgid "Feature 3"
+msgstr ""
+
+#: .\website\templates\website\products\mazoon45.html:63
+msgid "Mullion Connector"
+msgstr "تجميع القواطع"
+
+#: .\website\templates\website\products\mazoon45.html:64
+msgid ""
+"Our approach to strength and durability in manufacturing ensures that every "
+"detail, even if it is small, is assembled using two hidden screws. This not "
+"only enhances the structure but also maintains the elegant appearance of the "
+"system."
+msgstr ""
+"يضمن نهجنا في الحصول على قوة ومتانة في التصنيع جميع التفاصيل حتى لو كانت "
+"صغيرة، فكل موليون(T) يتم تجميعه باستخدام اثنين من البراغي المخفية. وهذا لا "
+"يعزز الهيكل فحسب، بل يحافظ أيضًا على المظهر الأنيق للنظام."
+
+#: .\website\templates\website\products\mazoon45.html:72
+msgid "Feature 4"
+msgstr ""
+
+#: .\website\templates\website\products\mazoon45.html:73
+msgid "Adaptable Profiles"
+msgstr "مرونة التخصيص"
+
+#: .\website\templates\website\products\mazoon45.html:74
+msgid ""
+"The Mazoon 45 system is versatile and meets a variety of architectural needs "
+"such as circular windows and more. Whether you are aiming for a wide "
+"panoramic view or a segmented window design, our system adapts easily."
+msgstr ""
+"يتميز نظام مزون ٤٥ بأنه متعددة الاستخدامات ويلبي مجموعة متنوعة من الاحتياجات "
+"المعمارية مثل النوافذ الدائرية وغيرها، سواء كنت تهدف إلى رؤية بانورامية "
+"واسعة أو تصميم نافذة مجزأ، فإن نظامنا يتكيف بسهولة."
+
+#: .\website\views.py:13
+msgid "Thermal Efficiency"
+msgstr "العزل الحراري"
+
+#: .\website\views.py:15
+msgid ""
+"Our windows and doors help insulate outside heat from your home. Your home "
+"stays warm in cold times and cool in hot times. This means less use of "
+"heaters or air conditioners, saving you money."
+msgstr ""
+"تساعد النوافذ والأبواب لدينا في عزل الحرارة الخارجية عن منزلك. يبقى منزلك "
+"دافئًا في الأوقات الباردة وباردًا في الأوقات الحارة. وهذا يعني استخدام أقل "
+"للسخانات أو مكيفات الهواء، مما يوفر لك المال."
+
+#: .\website\views.py:20
+msgid "Sound Barrier"
+msgstr "العزل الصوتي"
+
+#: .\website\views.py:22
+msgid ""
+"Tired of street noise and outside sounds in general? Our products isolate "
+"most unwanted sounds. Enjoy the peace inside, even if there is noise outside."
+msgstr ""
+"تعبت من ضجيج الشوارع والأصوات الخارجية بشكل عام؟ تعزل منتجاتنا معظم الأصوات "
+"غير المرغوب فيها. استمتع بالهدوء في الداخل، حتى لو كان هناك ضجيج في الخارج."
+
+#: .\website\views.py:27
+msgid "Rain Guard"
+msgstr "حماية من الأمطار"
+
+#: .\website\views.py:29
+msgid ""
+"Don't worry about rainwater getting inside. Our windows and doors have "
+"special seals to keep the rain outside."
+msgstr ""
+"لا تقلق بشأن دخول مياه الأمطار إلى الداخل. تحتوي نوافذنا وأبوابنا على موانع "
+"تسرب خاصة لمنع المطر في الخارج."
+
+#: .\website\views.py:34
+msgid "Low Maintenance"
+msgstr "قليل الصيانة"
+
+#: .\website\views.py:35
+msgid ""
+"Cleaning is easy. A little wipe-down is all you need to make them look new "
+"again."
+msgstr "التنظيف سهل. كل ما تحتاجه هو مسح بسيط لتجعلها تبدو جديدة مرة أخرى."
+
+#: .\website\views.py:39
+msgid "Eco Choice"
+msgstr "صديق للبيئة"
+
+#: .\website\views.py:41
+msgid ""
+"Aluminum is special because it can be recycled many times, saving lots of "
+"energy. When we recycle it, we create less waste, and the recycled aluminum "
+"is just as good as new."
+msgstr ""
+"الألومنيوم مميز لأنه يمكن إعادة تدويره عدة مرات، مما يوفر الكثير من الطاقة. "
+"عندما نقوم بإعادة تدويره، فإننا ننتج نفايات أقل، ويصبح الألومنيوم المعاد "
+"تدويره بنفس جودة الجديد."
+
+#: .\website\views.py:46
+msgid "Built Strong"
+msgstr "قوي البنية"
+
+#: .\website\views.py:48
+msgid ""
+"Aluminum is easy to form and strong, so it can withstand sun, wind and rain "
+"for many years."
+msgstr ""
+"يمتاز الألمنيوم بسهولة التشكيل والصلابة لذلك يمكنه تحمل الشمس والرياح والمطر "
+"لسنوات عديدة."
+
+#: .\website\views.py:52
+msgid "Design Flexibility"
+msgstr "مرونة التصميم"
+
+#: .\website\views.py:53
+msgid ""
+"Want different designs? We have many designs to suit the look of your home."
+msgstr "تريد تصاميم مختلفة؟ لدينا العديد من التصاميم لتناسب مظهر منزلك."
+
+#: .\website\views.py:57
+msgid "Easy Install"
+msgstr "سهولة التركيب"
+
+#: .\website\views.py:59
+msgid ""
+"Light yet strong, our windows and doors are easy to manufacture, install and "
+"are long-lasting."
+msgstr "خفيفة ولكن قوية، نوافذنا وأبوابنا سهلة التصنيع والتركيب وطويلة الأمد."
+
+#: .\website\views.py:86
+msgid "Your message has been sent successfully!"
+msgstr "تم إرسال رسالتك بنجاح."
+
+#: .\website\views.py:89
+msgid "There was an error with your submission."
+msgstr "هناك خطأ في تسليم الرسالة"
+
+#~ msgid "Hero Mazoon Aluminum"
+#~ msgstr "مزون المنيوم"
+
+#~ msgid "Features:"
+#~ msgstr "الميزات:"
+
+#~ msgid "Contact us"
+#~ msgstr "الاتصال بنا"
+
+#~ msgid ""
+#~ "we extruded our aluminum profile from Napco Oman. it has iso "
+#~ "certificate.\n"
+#~ "                    <a target=\"_blank\" class=\"link-dark\" href="
+#~ "\"https://www.napcooman.com/\">learn more</a>\n"
+#~ "                    "
+#~ msgstr ""
+#~ "نصنع قطاعتنا في شركة نابكو عمان. تمتاز نابكو عمان بالجودة العالمية في "
+#~ "مجال سحب الألمنيوم، لذلك جميع ما تمتاز به شركة نابكو عمان ينطبق على انظمة "
+#~ "مزون المنيوم <a target=\"_blank\" class=\"link-dark\" href=\"https://www."
+#~ "napcooman.com/\"> اقرأ المزيد</a>"
+
+#~ msgid ""
+#~ "The Mazoon 45 window and door system embodies a harmonious combination of "
+#~ "ease of manufacture and quality produced. As a hinged system, it is "
+#~ "beautifully designed and luxurious to deliver contemporary aesthetics "
+#~ "combined with powerful performance. Every detail is designed with the "
+#~ "latest, highest quality technology, making the windows and doors enjoy "
+#~ "unparalleled durability, easy maintenance, and a distinctive elegant "
+#~ "appearance. <a href=\"/mazoon45\" class=\"link-dark\">learn more</a>"
+#~ msgstr ""
+#~ "يجسد نظام النوافذ والأبواب مزون٤٥ مزيجًا متناغمًا من سهولة التصنيع وجودة "
+#~ "الإنتاج. كنظام مفصلي، فهو مصمم بشكل جميل وفاخر لتقديم جماليات معاصرة "
+#~ "مدمجة مع أداء قوي. كل تفصيل مصمم بأحدث وأعلى جودة تكنولوجية، مما يجعل "
+#~ "النوافذ والأبواب تتمتع بمتانة لا مثيل لها وسهولة صيانة ومظهر أنيق مميز. "
+#~ "<a href=\"/mazoon45\" class=\"link-dark\">تعرف أكثر</a>"
+
+#~ msgid "Mazoon Aluminum"
+#~ msgstr "مزون المنيوم"
+
+#~ msgid "Contact"
+#~ msgstr "الاتصال بنا"
+
+#~ msgid "Mazoon Aluminum. All rights reserved. Version: 0.4.8 Beta"
+#~ msgstr "مزون المنيوم. جميع الحقوق محفوظة. النسخة 0.4.8 تجريبية"
+
+#~ msgid "/about"
+#~ msgstr "من نحن"
+
+#~ msgid "/products"
+#~ msgstr "المنتجات"
+
+#~ msgid "/mazoon45"
+#~ msgstr "مزون٤٥"
+
+#~ msgid "Blog"
+#~ msgstr "المدونة"
+
+#~ msgid "/contact"
+#~ msgstr "الاتصال بنا"
+
+#~ msgid "Profile"
+#~ msgstr "الملف الشخصي"
+
+#~ msgid "Dashboard"
+#~ msgstr "لوحة التحكم"
+
+#~ msgid "Logout"
+#~ msgstr "تسجيل الخروج"
+
+#~ msgid "Sign In"
+#~ msgstr "تسجيل الدخول"
+
+#~ msgid "Sign Up"
+#~ msgstr "مستخدم جديد"
+
+#~ msgid ""
+#~ "we extruded our aluminum profile from Napco Oman. it has iso certificate. "
+#~ "learn more"
+#~ msgstr ""
+#~ "قمنا ببثق ملف الألمنيوم لدينا من نابكو عمان. لديها شهادة ISO. تعلم المزيد"

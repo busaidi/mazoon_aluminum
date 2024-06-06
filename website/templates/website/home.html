@@ -1,0 +1,72 @@
+{% extends "layouts/base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "Home Page" %}{% endblock %}
+
+{% block content %}
+<div class="container position-relative text-center text-white">
+    <img src="{% static 'website/media/images/hero/hero-gray.jpg' %}" alt="{% trans 'Hero Image' %}" class="img-fluid">
+    <div class="position-absolute top-50 start-50 translate-middle w-100 d-none d-md-block">
+        <div class="col-lg-8 mx-auto bg-dark bg-opacity-75 p-2 rounded">
+            <h1 class="display-4 fw-bold">{% trans "Welcome To Mazoon Aluminum!" %}</h1>
+            <p class="lead mb-4">{% trans "The first private company in Oman to make and develop aluminum and window systems." %}</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                <a href="/about" class="btn btn-secondary btn-lg px-4 me-sm-3">{% trans "Learn More About Us!" %}</a>
+            </div>
+        </div>
+    </div>
+    <div class="d-md-none mt-3">
+        <div class="col-lg-8 mx-auto bg-dark bg-opacity-75 p-4 rounded">
+            <h1 class="display-4 fw-bold">{% trans "Welcome To Mazoon Aluminum!" %}</h1>
+            <p class="lead mb-4">{% trans "The first private company in Oman to make and develop aluminum and window systems." %}</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                <a href="/about" class="btn btn-secondary btn-lg px-4 me-sm-3">{% trans "Learn More About Us!" %}</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container py-5">
+    <div class="row justify-content-center text-center">
+        <div class="col-lg-8">
+            <h2 class="fw-bold mb-4">{% trans "Our Commitment to Quality" %}</h2>
+            <p class="lead mb-4">{% trans "At Mazoon Aluminum, we extrude our aluminum profiles from Napco Oman, certified with ISO standards. Our products are built to last and designed to impress." %}</p>
+            <a target="_blank" href="https://www.napcooman.com/" class="link-dark">{% trans "Learn more about Napco Oman" %}</a>
+        </div>
+    </div>
+</div>
+
+<div class="container py-5">
+    <h2 class="text-center fw-bold mb-4">{% trans "Aluminum Windows And Doors Systems Feature" %}</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        {% for feature in features %}
+            <div class="col">
+                <div class="card text-center h-100 border-0 shadow-sm">
+                    <div class="card-body">
+                        <i class="{{ feature.icon }} fa-2x text-dark"></i>
+                        <h4 class="card-title mt-2">{{ feature.title }}</h4>
+                        <p class="card-text">{{ feature.description }}</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="container bg-white text-center h-100 border-0 shadow-sm p-4 mb-5">
+    <h2 class="text-center fw-bold mb-4">{% trans "Products" %}</h2>
+    <div class="row mb-5 align-items-center">
+        <div class="col-md-3 mb-3 mb-md-0">
+            <img src="{% static 'website/media/images/products/mazoon45/mazoon_product_1.png' %}" class="img-fluid rounded shadow-sm" alt="{% trans "Product Image" %}">
+        </div>
+        <div class="col-md-9 text-start">
+            <h3 class="fw-bold">{% trans "Mazoon 45 Casement System" %}</h3>
+            <p class="lead">{% trans "Where Design Meets Durability." %}</p>
+            <p>{% trans "The Mazoon 45 window and door system embodies a harmonious combination of ease of manufacture and quality produced. As a hinged system, it is beautifully designed and luxurious to deliver contemporary aesthetics combined with powerful performance. Every detail is designed with the latest, highest quality technology, making the windows and doors enjoy unparalleled durability, easy maintenance, and a distinctive elegant appearance." %}
+            <a href="/mazoon45" class="link-dark fw-bold d-block mt-2">{% trans "Learn more" %}</a></p>
+        </div>
+    </div>
+</div>
+{% endblock %}
