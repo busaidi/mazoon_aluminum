@@ -111,3 +111,19 @@ py .\manage.py compilemessages
 ```bash
 python manage.py compilemessages
 ```
+
+
+## update repo in VPS
+#### Make settings.py assume unchanged
+```bash
+git update-index --assume-unchanged mazoon_aluminum/settings.py
+```
+#### Pull the latest changes from GitHub, assuming the default branch is 'master'
+```bash
+git pull origin master
+```
+
+#### Revert the assume-unchanged setting
+```bash
+git update-index --no-assume-unchanged mazoon_aluminum/settings.py
+```
