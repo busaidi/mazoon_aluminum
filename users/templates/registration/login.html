@@ -39,6 +39,12 @@
                         </div>
                     </form>
                     <hr class="my-4 border-secondary-subtle">
+                    <div class="text-center mb-3">
+                        <p class="mb-2">{% trans "Or login with" %}</p>
+                        <a href="{% url 'social:begin' 'google-oauth2' %}" class="btn btn-danger btn-lg">
+                            <i class="fab fa-google"></i> Google
+                        </a>
+                    </div>
                     <div class="text-center">
                         <p class="mb-2">{% trans "Don't have an account?" %}</p>
                         <a href="{% url 'signup' %}" class="btn btn-outline-secondary btn-lg">{% trans "Sign Up Here" %}</a>
